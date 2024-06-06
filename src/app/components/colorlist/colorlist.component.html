@@ -1,0 +1,22 @@
+<ul class="color-list">
+    @for (valor of dataColors; track valor.hex) {
+        <div class="color-item" style="background-color: rgb({{valor.red}}, {{valor.green}}, {{valor.blue}});">{{valor.hex}}</div>
+    } @empty {
+        <div class="color-item"> Sin Color </div>
+    }
+</ul>
+
+<!--
+<div class="color-list">
+    <label for="red">Rojo:</label>
+    <input type="number" id="red" [formControl]="red" (change)="convertToHex()">
+  
+    <label for="green">Verde:</label>
+    <input type="number" id="green" [formControl]="green" (change)="convertToHex()">
+  
+    <label for="blue">Azul:</label>
+    <input type="number" id="blue" [formControl]="blue" (change)="convertToHex()">
+  
+    <div class="color-box" [style.background]="hexColor"></div>
+    <p>{{ hexColor }}</p>
+</div> -->

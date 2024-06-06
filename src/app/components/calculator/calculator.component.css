@@ -1,0 +1,92 @@
+.calc {
+    margin: auto;
+    background: #2e0423;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 10px;
+}
+
+.tittle-calc {
+    font-weight: 1000;
+    font-size: 45px;
+    color: white;
+}
+
+.inputs, .operations {
+    background: rgb(10, 204, 188);
+    width: 90%;
+    margin-top: 10px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    color: white;
+    align-items: center;
+}
+
+.data {
+    display: flex;
+    flex-direction: row;
+    padding: 5px;
+}
+
+.number {
+    padding: 15px;
+    flex-direction: column;
+}
+
+input, label {
+    padding: 3px;
+    margin: 3px;
+    border-radius: 5px;
+    height: 30px;
+}
+
+input {
+    text-align: center;
+}
+
+input:active {
+    border-style: solid;
+    border-color: #2EE59D;
+}
+
+button {
+    padding: 5px;
+    margin: 5px;
+    width: 140px;
+    height: 45px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    font-weight: 500;
+    color: #fff;
+    background-color: rgb(47, 4, 35);
+    border: none;
+    border-radius: 30px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+}
+
+
+.operations {
+    flex-direction: column;
+}
+
+.result {
+    width: 150px;
+    height: 50px;
+    border-style: solid;
+    border-color: #000000;
+    text-align: center;
+    font-weight: 900;
+}
